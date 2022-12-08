@@ -1,0 +1,122 @@
+body {
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+
+.container-big {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 95%;
+        height: 95%;
+        border: 2px solid black;
+        position: relative;
+        
+        
+}
+
+.container-big::before{
+        content: "";
+        width: 10px;
+        height: 80%;
+        background-color: white;
+        position: absolute;
+        top: 10%;
+        left:-5px;
+}
+
+.container-big::after{
+        content: "";
+        width: 10px;
+        height: 80%;
+        background-color: white;
+        position: absolute;
+        top: 10%;
+        right:-5px;
+}
+
+.decorative {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+}
+
+.decorative::before {
+        content: "";
+        height: 10px;
+        width: 80%;
+        background-color: white;
+        position: absolute;
+        left: 10%;
+        top:-5px;
+}
+
+.decorative::after {
+        content: "";
+        height: 10px;
+        width: 80%;
+        background-color: white;
+        position: absolute;
+        left: 10%;
+        bottom:-5px;
+}
+
+.smaller {
+        
+        width: 95%;
+        height: 95%;
+        background-color: beige;
+        
+}
+
+.header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: brown;
+        padding: 10px;
+}
+
+.logo {
+        border-radius: 50%;
+        overflow: hidden;
+
+        width: 80px;
+        height: 80px;
+}
+
+.logo img {
+        max-width: 100%;
+}
+
+.nav {
+        display: flex;
+        /* gap: 20px; */
+        width: 200px;
+        justify-content: space-between;
+        margin-right: 30px;
+}
+
+.nav a {
+
+}
+
+.nav a:hover {
+        color: white;
+}
+
+main {
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: burlywood;
+        background-image: url(./Pictures/Mask\ group.png);
+        background-repeat: no-repeat;
+        color: white;
+        background-position: center;
+}
