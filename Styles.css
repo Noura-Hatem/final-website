@@ -43,6 +43,7 @@ body {
         height: 100%;
         display: flex;
         flex-direction: column;
+        position: relative;
 }
 
 .decorative::before {
@@ -69,7 +70,7 @@ body {
         
         width: 95%;
         height: 95%;
-        background-color: beige;
+        background-color: #8A755D;
         
 }
 
@@ -77,7 +78,7 @@ body {
         display: flex;
         align-items: center;
         justify-content: space-between;
-        background-color: brown;
+        background-color: #6E5E4A;
         padding: 10px;
 }
 
@@ -100,11 +101,6 @@ body {
         justify-content: space-between;
         margin-right: 30px;
 }
-
-.nav a {
-
-}
-
 .nav a:hover {
         color: white;
 }
@@ -114,9 +110,601 @@ main {
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: burlywood;
+        background-color:  #8A755D;
         background-image: url(./Pictures/Mask\ group.png);
         background-repeat: no-repeat;
         color: white;
         background-position: center;
+}
+.welcome{
+         font-family: cursive;
+         font-size:  80px;
+         font-weight: 100;
+         top: 400px;
+
+}
+.gallery-icon img{
+        max-width: 100%;
+}
+.gallery-icon{
+         border-radius: 50%;
+        overflow: hidden;  
+
+         width: 80px;
+        height: 80px; 
+        left: 20px;
+}
+.blog-icon{
+        /* border-radius: 50%; */
+        /* overflow: hidden; */
+
+        /* width: 100px;
+        height: 100px;
+        left: 400px;
+        height: 100%;
+        display: flex;
+        background-color:  #8A755D;
+        color: white;
+         */
+         border-radius: 50%;
+         overflow: hidden;
+ 
+         width: 80px;
+         height: 80px;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+        
+}
+.blog-icon img{
+        max-width: 100%;
+}
+.contact{
+        border-radius: 50%;
+         overflow: hidden;
+ 
+         width: 80px;
+         height: 80px;
+         right: 40px ;
+         top: 5px;
+}
+.contact img{
+        max-width: 100%;  
+}
+
+.gallery {
+        width: 900px;
+        height: 900px; 
+        margin: 20px auto;
+        border: solid;
+        position:relative;
+         height: 100%;
+        display: flex;   
+        background-color:  #8A755D;
+        color: white;
+        overflow: hidden; 
+         /* border-radius: 50%; */
+       
+        /* width: 80px;
+        height: 80px; */ 
+        /* left: 20px; */
+}
+.decoration-background{
+        /* height: 100%;
+        display: flex;
+        background-color:  #8A755D; */
+        /* background-image: url(./Pictures/decorations-background/Rectangle\ 17.png); */
+        /* background-repeat: no-repeat;
+        color: white;
+        background-position: center; */
+}
+
+.img-container {
+       
+        border: 2px solid rgb(255, 255, 255);
+        overflow: hidden;
+        position: absolute;
+        position: flex;
+        flex: auto;        
+}
+
+.img-container img {
+        width: 100%;
+}
+.photography{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+
+}
+.paintings{
+      bottom: 20px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+.dahmer {
+        top: 150px;
+        left:250px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+.animation{
+        top: 20px;
+        left:470px;
+        width: 200px;
+        height: 150px;
+        border: 2px solid rgb(255, 255, 255);
+        
+}
+.digitalart{
+       bottom: 20px;
+        left:470px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+.drawings{
+        top: 200px;
+        right:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+/* .icons{
+        border-radius: 50%;
+        overflow: hidden;
+
+        width: 80px;
+        height: 80px;
+        max-width: 100%;
+
+} */
+.photography-tab{
+        right: 20px;
+        
+}
+.photography-tab a:hover {
+        color: rgb(0, 0, 0);
+}
+
+
+.gallery-page{
+        width: 900px;
+        height: 900px; 
+        margin: 20px auto;
+        border: solid;
+        position:relative;
+         height: 100%;
+        display: flex;   
+        background-color:  #8A755D;
+        color: white;    
+        flex: auto;
+        overflow: hidden; 
+}
+
+.decoration-photography::before {
+   border: white;
+   background-color:rgba(218, 221, 218, 1) ;
+   height: 100px;
+   width: 100px;
+    }
+.photo1{
+top: 20px;
+left: 20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+        margin: 0 auto;}
+
+.imgphoto1{
+
+        /* width: 100px;
+        height: 200px; */
+        border: 2px solid rgb(255, 255, 255);
+        margin: 0 auto;
+
+       
+}
+.photo2{
+        bottom: 50px;
+        left:20px;
+        width: 200px;
+        height: 240px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+.photo3{
+       
+        top: 20px;
+        left:250px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.photo4{
+        top: 50px;
+        left:470px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);   
+}
+.photo5{
+        bottom: 20px;
+        left:240px;
+        width: 200px;
+        height: 300px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.photo6{
+        top: 20px;
+        right:10px;
+        width: 200px;
+        height: 290px;
+        border: 2px solid rgb(255, 255, 255);
+}
+
+.photo7{
+        bottom: 50px;
+        right:240px;
+        width: 200px;
+        height: 250px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.photo8{
+        bottom: 20px;
+        right:20px;
+        width: 200px;
+        height: 300px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.imgphoto{
+        width:300px;
+        height:300px;
+        
+}
+
+
+.blog{
+        width: 310px;
+        height: 200px;
+        border: 1px solid rgb(255, 255, 255);
+        overflow: hidden;
+        position: absolute;
+        position: flex;
+        flex: auto;   
+        top: 400px;
+
+        left: 10%;
+        bottom:-5px;
+         
+}
+.decoration-photography{
+        right: 0px;
+
+}
+.painting1{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 260px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.painting2{
+        bottom: 60px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.painting3{
+      bottom: 10px;
+        left:240px;
+        width: 200px;
+        height: 180px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.painting4{
+        width: 200px;
+        height: 200px;
+        top: 20px;
+        left:350px;
+}
+.painting5{
+        width: 200px;
+        height: 200px;
+        top: 250px;
+        left:240px;
+}
+.painting6{
+        width: 200px;
+        height: 280px;
+        top: 230px;
+        left:460px;
+}
+.painting7{
+        width: 200px;
+        height:200px;
+        top: 50px;
+        right:20px;
+}
+.painting8{
+        width: 200px;
+        height: 300px;
+        bottom: 30px;
+        right:20px;
+}
+.latestwork{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.latestwork2{
+        bottom: 60px;
+        left:20px;
+        width: 200px;
+        height: 240px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.latestwork3{
+        bottom: 50px;
+        left:240px;
+        width: 200px;
+        height: 250px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.latestwork4{
+        width: 200px;
+        height: 270px;
+        top: 170px;
+        right:240px;
+}
+.latestwork5{
+        width: 200px;
+        height: 230px;
+        top: 50px;
+        left:240px;
+}
+
+.latestwork6{
+        width: 200px;
+        height:300px;
+        top: 30px;
+        right:20px;
+}
+.latestwork7{
+        width: 200px;
+        height: 270px;
+        bottom: 30px;
+        right:20px;
+}
+.arrow-right{
+  right: 20px;      
+}
+.arrow-left{
+        left: 20px;
+}
+.animation1{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.animation2{
+        bottom: 60px;
+        left:20px;
+        width: 200px;
+        height: 240px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.digitalart1{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.digitalart2{
+        bottom: 50px;
+        left:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.digitalart3{
+        top: 60px;
+        left:240px;
+        width: 200px;
+        height: 250px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.digitalart4{
+        width: 200px;
+        height: 350px;
+        top: 10px;
+        right:240px;
+}
+.digitalart5{
+        width: 200px;
+        height: 200px;
+        bottom: 70px;
+        left:240px;
+}
+.digitalart6{
+        width: 200px;
+        height: 330px;
+        /* bottom:10px;
+        right:240px; */
+        bottom: 30px;
+        right:20px;
+}
+.digitalart7{
+        width: 200px;
+        height:270px;
+        top: 10px;
+        right:20px;
+}
+.digitalart8{
+        width: 200px;
+        height: 168px;
+        bottom:50px;
+        right:240px;
+}
+
+
+.contact-icons{
+        flex: auto;
+        background-color:  #433a2e;
+        height: 100%;
+        display: flex;
+        justify-content:center;
+        align-items: center;
+       
+}
+.contact-icons::before{
+        height:400px;
+        width: 200px;
+        content: "";
+        height: 10px;
+        width: 80%;
+        position: absolute;
+        left: 10%;
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-right: 30px;
+}
+h2{
+        font-size: 50px;
+        text-align: center;
+
+}
+.drawing1{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 280px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing2{
+        bottom: 50px;
+        left:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing3{
+        top: 60px;
+        left:240px;
+        width: 200px;
+        height: 140px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing4{
+        width: 200px;
+        height: 240px;
+        top: 10px;
+        right:240px;
+}
+.drawing5{
+        width: 200px;
+        height: 200px;
+        bottom: 70px;
+        left:240px;
+}
+.drawing6{
+        width: 200px;
+        height: 330px;
+        /* bottom:10px;
+        right:240px; */
+        bottom: 30px;
+        right:20px;
+}
+.drawing7{
+        width: 200px;
+        height:270px;
+        top: 10px;
+        right:20px;
+}
+.drawing8{
+        width: 200px;
+        height: 168px;
+        bottom:50px;
+        right:240px;
+}
+.drawing9{
+        width: 200px;
+        height: 168px;
+}
+.drawing10{
+        width: 200px;
+        height: 168px;
+}
+.drawing11{
+        width: 200px;
+        height: 168px;
+}
+
+.icon a img {
+        max-width: 100%;
+}
+
+.icon a{
+        display: block;
+        width: 120px;
+}
+
+.icon {
+        position: absolute;
+}
+
+.gallery-btn {
+        bottom: 250px;
+        left: 40px;
+}
+
+.blog-btn{
+        top: 10px;
+        left: 730px;
+     
+
+}
+.contact-btn{
+        bottom: 250px;
+        right: 30px;
+}   
+
+
+
+
+p1{
+       width: 208px; 
+        display: flex;
+        
+}
+p2{
+        width: 208px; 
+        display: flex;
+        right: 20px;
+}
+.decor-container1 ::before{
+/* border: 2px solid: rgba(159, 139, 124, 1) ;
+width: 200px;
+height: 300px;
+background-color: rgba(159, 139, 124, 1) ; */
+background-image: url(./Pictures/decorations-background/Rectangle\ 16.png);
+z-index: 400;
 }
