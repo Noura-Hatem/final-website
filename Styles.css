@@ -12,7 +12,7 @@ body {
         align-items: center;
         width: 95%;
         height: 95%;
-        border: 2px solid black;
+        border: 2px solid rgb(0, 0, 0);
         position: relative;
         
         
@@ -25,7 +25,8 @@ body {
         background-color: white;
         position: absolute;
         top: 10%;
-        left:-5px;
+        left: -10px;
+       
 }
 
 .container-big::after{
@@ -53,7 +54,8 @@ body {
         background-color: white;
         position: absolute;
         left: 10%;
-        top:-5px;
+        top: -31px;
+        
 }
 
 .decorative::after {
@@ -62,8 +64,9 @@ body {
         width: 80%;
         background-color: white;
         position: absolute;
-        left: 10%;
-        bottom:-5px;
+        right: 10%;
+        bottom: -28px;
+
 }
 
 .smaller {
@@ -80,6 +83,25 @@ body {
         justify-content: space-between;
         background-color: #6E5E4A;
         padding: 10px;
+}
+.nav2{
+        text-decoration: none;
+         color: inherit;
+}
+a {
+        text-decoration: none;
+        color: inherit;
+    }
+ .nav2 {
+        display: flex;
+        /* gap: 20px; */
+        width: 200px;
+        justify-content: space-between;
+        margin-right: 30px;
+        list-style: none;
+}
+.nav2 a:hover {
+        color: white;
 }
 
 .logo {
@@ -215,12 +237,12 @@ main {
         top: 20px;
         left:20px;
         width: 200px;
-        height: 200px;
+        height: 280px;
         border: 2px solid rgb(255, 255, 255);
 
 }
 .paintings{
-      bottom: 20px;
+      bottom: 30px;
         left:20px;
         width: 200px;
         height: 280px;
@@ -244,8 +266,8 @@ main {
         
 }
 .digitalart{
-       bottom: 20px;
-        left:470px;
+       bottom: 30px;
+        left:465px;
         width: 200px;
         height: 200px;
         border: 2px solid rgb(255, 255, 255);
@@ -255,7 +277,7 @@ main {
         top: 200px;
         right:20px;
         width: 200px;
-        height: 200px;
+        height: 240px;
         border: 2px solid rgb(255, 255, 255);
 }
 
@@ -298,21 +320,52 @@ main {
    width: 100px;
     }
 .photo1{
-top: 20px;
-left: 20px;
+        top: 20px;
+        left: 20px;
         width: 200px;
-        height: 280px;
-        border: 2px solid rgb(255, 255, 255);
-        margin: 0 auto;}
-
-.imgphoto1{
-
-        /* width: 100px;
-        height: 200px; */
+        height: 250px;
         border: 2px solid rgb(255, 255, 255);
         margin: 0 auto;
+        background-color: rgba(159, 139, 124, 1);
+        object-position: 50% 50%;
+}
 
-       
+ .imgphoto1{
+
+         width: 100px;
+         height: 200px; 
+        border: 2px solid rgb(255, 255, 255);
+        margin: 0 auto; 
+        align-items: center;
+
+} 
+.container {
+        height: 200px;
+        width: 200px;
+        display: flex;
+        /* align-items: center;
+        justify-content: center; */
+        top: 50px;
+        bottom: 50px;
+        margin: 15 auto;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+    }
+    .item {
+        width: 10em;
+    }
+
+.arrow-right{
+        height: 100px;
+        width: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        top: 50px;
+        bottom: 50px;
+        margin: 15 auto;
 }
 .photo2{
         bottom: 50px;
@@ -375,15 +428,15 @@ left: 20px;
 
 .blog{
         width: 310px;
-        height: 200px;
+        height: 150px;
         border: 1px solid rgb(255, 255, 255);
         overflow: hidden;
         position: absolute;
-        position: flex;
-        flex: auto;   
-        top: 400px;
+        /* position: flex;
+        flex: auto;    */
+        top: 40%;
 
-        left: 10%;
+        left: 30%;
         bottom:-5px;
          
 }
@@ -442,7 +495,7 @@ left: 20px;
         bottom: 30px;
         right:20px;
 }
-.latestwork{
+.latestwork1{
         top: 20px;
         left:20px;
         width: 200px;
@@ -498,15 +551,59 @@ left: 20px;
         top: 20px;
         left:20px;
         width: 200px;
-        height: 280px;
+        height: 200px;
         border: 2px solid rgb(255, 255, 255);
 }
 .animation2{
-        bottom: 60px;
+        bottom: 50px;
         left:20px;
         width: 200px;
-        height: 240px;
+        height: 280px;
         border: 2px solid rgb(255, 255, 255);
+}
+.animation3{
+        bottom: 10px;
+        left:240px;
+        width: 200px;
+        height: 180px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.animation4{
+        width: 200px;
+        height:200px;
+        top: 50px;
+        left:230px;
+}
+.animation5{
+        width: 200px;
+        height: 150px;
+        top: 290px;
+        left:240px;
+}
+.animation6{
+        width: 200px;
+        height: 280px;
+        bottom: 20px;
+        left:460px;
+}
+.animation7{
+        width: 200px;
+        height:200px;
+        top: 50px;
+        right:230px;
+}
+.animation8{
+        width: 200px;
+        height: 230px;
+        bottom:20px;
+        right:20px;
+}
+.animation9{
+        width: 200px;
+        height: 300px;
+        right:10px;
+        top: 10px;
+
 }
 .digitalart1{
         top: 20px;
@@ -561,8 +658,75 @@ left: 20px;
         bottom:50px;
         right:240px;
 }
-
-
+.drawing-1{
+        top: 20px;
+        left:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing-2{
+        bottom: 20px;
+        left:20px;
+        width: 200px;
+        height: 200px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing-3{
+        top: 240px;
+        left: 20px;px;
+        width: 200px;
+        height: 140px;
+        border: 2px solid rgb(255, 255, 255);
+}
+.drawing-4{
+        width: 200px;
+        height: 240px;
+        bottom: 20px;
+        right:240px;
+}
+.drawing-5{
+        width: 200px;
+        height: 240px;
+        bottom: 20px;
+        left:240px;
+}
+.drawing-6{
+        width: 200px;
+        height: 220px;
+        /* bottom:10px;
+        right:240px; */
+        bottom: 20px;
+        right:20px;
+}
+.drawing-7{
+        width: 200px;
+        height:240px;
+        top: 100px;
+        right:20px;
+}
+/* .drawing8{
+        width: 00px;
+        height: 00px;
+        bottom:50px;
+        right:240px;
+} */
+.drawing-9{
+        width: 200px;
+        height: 220px;
+        top: 20px;
+        right: 250px;
+}
+.drawing-10{
+        width: 200px;
+        height: 200px;
+        top: 150px;
+        left: 235px;
+}
+/* .drawing-11{
+        width: 00px;
+        height: 00px;
+} */
 .contact-icons{
         flex: auto;
         background-color:  #433a2e;
@@ -693,7 +857,8 @@ h2{
 p1{
        width: 208px; 
         display: flex;
-        
+margin: 5 auto;
+left: 20px;
 }
 p2{
         width: 208px; 
@@ -707,4 +872,52 @@ height: 300px;
 background-color: rgba(159, 139, 124, 1) ; */
 background-image: url(./Pictures/decorations-background/Rectangle\ 16.png);
 z-index: 400;
+}
+.navoo{
+        text-decoration: none;
+        color:inherit;
+        list-style: none;
+}
+.green-1{
+        color: rgba(36, 53, 40, 1);
+}
+.container-2{
+        border: 2px ;
+        width: 100px;
+        height: 230px;
+        background-color: #433a2e;
+        top: 50%;
+        left: 10px;
+}
+h2{
+        font-style: italic;
+}
+
+
+.photography-2{
+top: 50px;
+}        
+.arrow-right{
+        text-align: right;
+        display: flex;
+   
+        width: 200px;
+        justify-content: space-between;
+        margin-right: 30px;
+        list-style: none;
+}
+.arrow-right a:hover {
+        color: white;
+}
+.arrow-left{
+        text-align: left;
+        display: flex;
+        width: 200px;
+        /* justify-content: space-between; */
+        margin-left: 30px;
+        list-style: none;
+}
+
+.arrow-left a:hover {
+        color: white;
 }
